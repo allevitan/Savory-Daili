@@ -1,0 +1,19 @@
+---
+layout: default
+title: Savory Daili
+---
+
+<ul class="posts">
+  {% for post in site.posts %}
+  <li>
+    <h1 class="post-title"><a href="{{ post.url }}.html">{{ post.title }}</a></h3>
+    <div class="date">{{ post.date | date_to_string }}</div>
+    <div class="tags">{{ post.categories | array_to_sentence_string }}</div>
+    <img src="{{ post.img-abstract }}" class="img-abstract">
+    <div class="abstract">
+      {{ post.excerpt }}
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+

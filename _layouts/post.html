@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1 class="post-title"><a href="{{ page.url }}.html">{{ page.title }}</a></h3>
+  <div class="date">{{ page.date | date_to_string }}</div>
+  <div class="tags">{{ page.categories | array_to_sentence_string }}</div>
+  <h2>Ingredients (makes {{ page.servings }} {{ page.serving_units }})</h2>
+  <ul class="ingredients">{% for ingredient in page.ingredients %}
+    <li><b>{{ ingredient.amount }}{% if ingredient.units %} {{ ingredient.units }}{% endif %}</b> {{ ingredient.name }}</li>
+    {% endfor %}
+  </ul>
+  {{ content }}
+  </div>
+</article>

@@ -1,0 +1,250 @@
+:root {
+    --main-color:#F7882F;
+}
+
+body{
+    background-color: var(--main-color);
+    min-width: 960px;
+}
+
+a {
+    text-decoration:none;
+    color: var(--main-color);
+}
+
+a:hover, a:focus {
+    color: #E44424;
+}
+
+div.header {
+    background-color: #F3EDCA;
+    padding-top:30px;
+}
+
+div.wanyi-photo {
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.table-top {
+    background-color: #FAAC52;
+    height:103px;
+    width:100%;
+}
+
+div.dish-container {
+    width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+    
+
+div.table-side {
+    background-color: #B1422A;
+    height:30px;
+    width:100%;
+}
+
+img.wanyi-posed {
+    display: block;
+    height: 300px;
+    margin-bottom: -100px;
+    margin-right: 0px;
+    margin-left:auto;
+}
+
+img.dish {
+    height: 141px;
+    margin-top: -38px;
+    float: left;
+    position:relative;
+    z-index: 5;
+}
+
+h1.title a{
+    color: #000000;
+}
+
+h1.title {
+    font-family: Helvetica, Arial, sans-serif;
+    float:left;
+    z-index: 1;
+    margin-top:30px;
+    margin-left:50px;
+    font-size:60px;
+}
+
+ul.navbar{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:0px;
+  padding-top: 6px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul.navbar li {
+  font-size:20px;
+  width: 20%;
+  flex-grow:1;
+  text-align:center;
+  color: #ffffff;
+}
+
+ul.navbar  a {
+    color:#ffffff;
+}
+
+ul.navbar a:hover, ul.navbar a:focus {
+    color: #E44424;
+}
+
+.tie {
+    height: 5px;
+    background-color: #FFFFF4;
+    margin-top: 40px;
+    margin-bottom:10px;
+    text-align:center;
+}
+
+
+h2.subtitle {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: var(--main-color);
+    position:relative;
+    top:-15px;
+    display: inline-block;
+    margin-bottom:0px;
+    margin-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align:center;
+    font-size:28px;
+    color: #FFFFF4;
+}
+
+
+
+.site{
+    width:800px;
+    padding-left:25px;
+    padding-right:25px;
+    margin-top: 40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+ul.posts {
+    padding:0px;
+    margin:0px;
+    list-style-type:none;
+}
+
+ul.posts > li, .post {
+    background-color: #FFFFF4;
+    padding:40px;
+    padding-top:30px;
+    margin-bottom:40px;
+    outline: 1px solid var(--main-color);
+    outline-offset: -10px;
+    box-shadow: 0px 0px 5px -2px #000000;
+    color: #1a1a1a;
+    overflow: hidden;
+    font-family: 'Computer Modern Serif', serif
+}
+
+
+h1.post-title {
+    margin-top:0px;
+    margin-bottom:10px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+h1.post-title > a {
+    color:#1a1a1a;
+}
+
+h1.post-title > a:hover {
+    color:#555;
+}
+
+
+img.img-abstract {
+    object-fit: cover;
+    width:230px;
+    height:230px;
+    margin-top: 15px;
+    margin-right: 25px;
+    margin-bottom: 0px;
+    float:left;
+}
+
+
+    
+.date{
+    float:right;
+    font-style: italic;
+}
+
+.tags{
+    font-style: italic;
+}
+
+
+.post ul.ingredients {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+}
+
+.post ul.ingredients li {
+    font-size: 20px;
+}
+
+.post figure {
+    display:block;
+    width:55%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.post figure > img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:5px;
+    display: block;
+}
+
+.post h2 {
+    font-family: 'Computer Modern Serif', serif;
+    padding-top: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+video{
+    display:block;
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+.footnotes p {
+    font-size: 90%;
+}
