@@ -2,7 +2,9 @@
 layout: post
 title:  "I Cooked Food It Was Good Yum"
 categories: [Food, Cooking]
-img-abstract: /images/f1rst-p0st/cover-img.png
+img-abstract: /images/signature-childhood-carrots/cover-img.jpg
+img-abstract-alt: A pan of stir-fried carrots with chinese sausage, onions, and scallions
+img-abstract-caption: This is not actually my signature childhood carrots, because I don't have a picture of that - this is a fried rice in the process of being cooked.
 servings: 60
 serving_units: cookies
 difficulty: "Super easy"

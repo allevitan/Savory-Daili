@@ -5,6 +5,8 @@ title: Savory Daili
 
 <ul class="posts">
   {% for post in site.posts %}
+  {% assign tags = post.categories | join: '~~~' | downcase | split: '~~~' %}
+  {% if tags contains "recipe" %}
   <li>
     <h1 class="post-title"><a href="{{ post.url }}.html">{{ post.title }}</a></h3>
     <div class="date">{{ post.date | date_to_string }}</div>
@@ -15,6 +17,6 @@ title: Savory Daili
       {{ excerptParts[1] | strip_newlines | truncatewords: 125 }}
     </div>
   </li>
+  {% endif %}
   {% endfor %}
 </ul>
-

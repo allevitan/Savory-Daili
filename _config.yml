@@ -1,3 +1,5 @@
 name: Savory Daili
 
 permalink: /:title
+
+excerpt_separator: <!-- excerpt-end --> 
